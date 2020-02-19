@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #515c56;
+}
+.listofforms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    
+    
+
+}
+.listofforms li{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    
+    
+}
+.listofforms li input{
+    border-radius: 5px;
+    height: 30px;
+    width: 15rem;
+    margin-top: 30px;
+    background-color: #2b2e2c;
+    color: white;
+    
+}
+.listofforms li input.comments{
+    height: 60px;
+}
+.listofforms li button{
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color:#2b2e2c ;
+}
